@@ -32,3 +32,21 @@ M:\C#++\agoraProject\DataContext2\obj\Debug\net6.0\refint\DataContext2.dll
 M:\C#++\agoraProject\DataContext2\obj\Debug\net6.0\DataContext2.pdb
 M:\C#++\agoraProject\DataContext2\obj\Debug\net6.0\DataContext2.genruntimeconfig.cache
 M:\C#++\agoraProject\DataContext2\obj\Debug\net6.0\ref\DataContext2.dll
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\bin\Debug\net6.0\DataContext2.deps.json
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\bin\Debug\net6.0\DataContext2.runtimeconfig.json
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\bin\Debug\net6.0\DataContext2.dll
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\bin\Debug\net6.0\DataContext2.pdb
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\bin\Debug\net6.0\Repository.dll
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\bin\Debug\net6.0\Repository.pdb
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.csproj.AssemblyReference.cache
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.GeneratedMSBuildEditorConfig.editorconfig
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.AssemblyInfoInputs.cache
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.AssemblyInfo.cs
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.csproj.CoreCompileInputs.cache
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.sourcelink.json
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.csproj.CopyComplete
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.dll
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\obj\Debug\net6.0\refint\DataContext2.dll
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.pdb
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.genruntimeconfig.cache
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\obj\Debug\net6.0\ref\DataContext2.dll

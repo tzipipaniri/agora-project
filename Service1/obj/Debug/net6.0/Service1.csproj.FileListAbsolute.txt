@@ -32,3 +32,21 @@ M:\C#++\agoraProject\Service1\obj\Debug\net6.0\Service1.dll
 M:\C#++\agoraProject\Service1\obj\Debug\net6.0\refint\Service1.dll
 M:\C#++\agoraProject\Service1\obj\Debug\net6.0\Service1.pdb
 M:\C#++\agoraProject\Service1\obj\Debug\net6.0\ref\Service1.dll
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Service1\bin\Debug\net6.0\Service1.deps.json
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Service1\bin\Debug\net6.0\Service1.dll
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Service1\bin\Debug\net6.0\Service1.pdb
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Service1\bin\Debug\net6.0\Common1.dll
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Service1\bin\Debug\net6.0\Repository.dll
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Service1\bin\Debug\net6.0\Common1.pdb
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Service1\bin\Debug\net6.0\Repository.pdb
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Service1\obj\Debug\net6.0\Service1.csproj.AssemblyReference.cache
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Service1\obj\Debug\net6.0\Service1.GeneratedMSBuildEditorConfig.editorconfig
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Service1\obj\Debug\net6.0\Service1.AssemblyInfoInputs.cache
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Service1\obj\Debug\net6.0\Service1.AssemblyInfo.cs
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Service1\obj\Debug\net6.0\Service1.csproj.CoreCompileInputs.cache
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Service1\obj\Debug\net6.0\Service1.sourcelink.json
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Service1\obj\Debug\net6.0\Service1.csproj.CopyComplete
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Service1\obj\Debug\net6.0\Service1.dll
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Service1\obj\Debug\net6.0\refint\Service1.dll
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Service1\obj\Debug\net6.0\Service1.pdb
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Service1\obj\Debug\net6.0\ref\Service1.dll

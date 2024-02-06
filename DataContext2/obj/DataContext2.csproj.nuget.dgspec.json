@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "M:\\C#++\\agoraProject\\DataContext2\\DataContext2.csproj": {}
+    "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\DataContext2\\DataContext2.csproj": {}
   },
   "projects": {
-    "M:\\C#++\\agoraProject\\DataContext2\\DataContext2.csproj": {
+    "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\DataContext2\\DataContext2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\C#++\\agoraProject\\DataContext2\\DataContext2.csproj",
+        "projectUniqueName": "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\DataContext2\\DataContext2.csproj",
         "projectName": "DataContext2",
-        "projectPath": "M:\\C#++\\agoraProject\\DataContext2\\DataContext2.csproj",
-        "packagesPath": "C:\\Users\\113\\.nuget\\packages\\",
-        "outputPath": "M:\\C#++\\agoraProject\\DataContext2\\obj\\",
+        "projectPath": "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\DataContext2\\DataContext2.csproj",
+        "packagesPath": "C:\\Users\\tzipi paniri\\.nuget\\packages\\",
+        "outputPath": "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\DataContext2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\113\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tzipi paniri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "M:\\C#++\\agoraProject\\Repository\\Repository.csproj": {
-                "projectPath": "M:\\C#++\\agoraProject\\Repository\\Repository.csproj"
+              "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\Repository\\Repository.csproj"
               }
             }
           }
@@ -81,24 +82,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\C#++\\agoraProject\\Repository\\Repository.csproj": {
+    "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\C#++\\agoraProject\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "M:\\C#++\\agoraProject\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\113\\.nuget\\packages\\",
-        "outputPath": "M:\\C#++\\agoraProject\\Repository\\obj\\",
+        "projectPath": "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\tzipi paniri\\.nuget\\packages\\",
+        "outputPath": "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\113\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tzipi paniri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -107,6 +108,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -150,7 +152,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

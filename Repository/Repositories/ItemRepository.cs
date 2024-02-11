@@ -44,7 +44,7 @@ namespace Repository.Repositories
 
         var item1= await context.Items.FirstOrDefaultAsync(x=>x.Id == id);
             item1.Description=item.Description;
-            item1.Situation=item.Situation;
+            item1.state=item.state;
             item1.DateDelivery = item.DateDelivery;
             context.save();
         }

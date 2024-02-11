@@ -15,7 +15,7 @@ namespace Common1.Dtos
         public int Id { get; set; }
         public string Description { get; set; } = string.Empty;
         //public DateTime DateDelivery { get; set; }
-        public situation Situation { get; set; }
+        public State Situation { get; set; }
         public DateTime DateDelivery { get; set; }
     }
 }

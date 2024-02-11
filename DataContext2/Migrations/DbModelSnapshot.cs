@@ -54,10 +54,10 @@ namespace DataContext2.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Situation")
+                    b.Property<int>("categoryId")
                         .HasColumnType("int");
 
-                    b.Property<int>("categoryId")
+                    b.Property<int>("state")
                         .HasColumnType("int");
 
                     b.Property<int>("userId")

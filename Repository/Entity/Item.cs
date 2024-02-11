@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Repository.Entity
 {
-    public enum situation{
+    public enum State{
             NoNatter // לא משנה
                 ,likeNew // כמו חדש
                 ,goodAndAbove, // טוב ומעלה
@@ -25,7 +25,7 @@ namespace Repository.Entity
 
         public User user { get; set; }
         public Category category { get; set; }
-        public situation Situation { get; set; }
+        public State state { get; set; }
         public DateTime DateDelivery { get; set; }
 
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgoraProject1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+279dbc31c7bc480964642c9c916a6ede83ac364b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd1e531cce6475fc9ce9ba91309ac726cfcdb54c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgoraProject1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgoraProject1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

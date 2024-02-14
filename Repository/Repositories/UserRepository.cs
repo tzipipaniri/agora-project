@@ -47,7 +47,6 @@ namespace Repository.Repositories
             user.LastName=item.LastName;
             user.Email=item.Email;
             user.Phone=item.Phone;
-            //user.Password=item.Password;
             user.City=item.City;
             user.Street=item.Street;
             user.NumHouse=item.NumHouse;

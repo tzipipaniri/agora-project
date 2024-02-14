@@ -43,7 +43,13 @@ namespace Repository.Repositories
         {
 
         var item1= await context.Items.FirstOrDefaultAsync(x=>x.Id == id);
-            item1.Description=item.Description;
+            item1.Name=item.Name;
+            if(item1.Image!=null)
+            item1.Image=item.Image;
+            if(item.UserId!=null) 
+            item1.UserId=item.UserId;
+            if(item1.CategoryId!=0)
+            item1.CategoryId=item.CategoryId;
             item1.state=item.state;
             item1.DateDelivery = item.DateDelivery;
             context.save();

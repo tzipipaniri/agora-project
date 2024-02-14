@@ -48,7 +48,7 @@ namespace AgoraProject1.Controllers
         [HttpDelete("{id}")]
         public async Task Delete(int id)
         {
-            await service?.DeleteAsync(id);
+            await service.DeleteAsync(id);
         }
     }
 }

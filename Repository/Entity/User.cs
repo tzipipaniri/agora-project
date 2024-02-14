@@ -10,20 +10,14 @@ namespace Repository.Entity
 {
     public class User
     {
-        [ForeignKey("UserId")]
         public int Id { get; set; }
-        [Required]
-        public string FirstName { get; set; } = string.Empty;
-        public string LastName { get; set; } = string.Empty;
-        public string Email { get; set; } = string.Empty;
-        [Required]
+        public string? FirstName { get; set; } 
+        public string? LastName { get; set; } 
+        public string? Email { get; set; } 
         public string? Phone { get; set; }
-        //public string Password { get; set; } = string.Empty;
-        [Required]
-        public string City { get; set; } = string.Empty;
-        public string Street { get; set; } = string.Empty;
+        public string? City { get; set; } 
+        public string? Street { get; set; } 
         public int NumHouse { get; set; }
-        // public bool IsGive { get; set; }
          public virtual ICollection<Item> items { get; set; }
     }
 }

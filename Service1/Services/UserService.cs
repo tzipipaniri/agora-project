@@ -23,32 +23,28 @@ namespace Service1.Services
 
         public async Task AddAsync(UserDto service)
         {
-            await _repository.AddAsync(mapper.Map<User>(service));
+               await _repository.AddAsync(mapper.Map<User>(service));
         }
 
-        public Task DeleteAsync(int id)
+        public async Task DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+                await _repository.DeleteAsync(id);
         }
 
         public async Task<List<UserDto>> GetAllAsync()
         {
-            return mapper.Map<List<UserDto>>(await _repository.GetAllAsync());
+               return mapper.Map<List<UserDto>>(await _repository.GetAllAsync());
         }
 
         public async Task<UserDto> GetAsync(int id)
         {
-            return mapper.Map<UserDto>(await _repository.GetAsync(id));
-        }
-
-        public async Task RemoveAsync(int id)
-        {
-            await _repository.DeleteAsync(id);
+             return mapper.Map<UserDto>(await _repository.GetAsync(id));
         }
 
         public async Task UpdateAsync(int id, UserDto service)
         {
-            _repository.UpdateAsync(id,mapper.Map<User>(service));
+               _repository.UpdateAsync(id,mapper.Map<User>(service));
         }
+
     }
 }

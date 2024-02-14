@@ -42,7 +42,7 @@ namespace Repository.Repositories
         public async Task UpdateAsync(int id, Category item)
         {
            var category= await this._context.Categories.FirstOrDefaultAsync(x=>x.Id == id);
-            category.Description=item.Description;
+            category.Name=item.Name;
             this._context.save();
         }
     }

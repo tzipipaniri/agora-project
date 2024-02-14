@@ -12,9 +12,10 @@ namespace Common1.Dtos
 {
     public class ItemDto
     {
-        public int Id { get; set; }
-        public string Description { get; set; } = string.Empty;
-        //public DateTime DateDelivery { get; set; }
+        public int? Id { get; set; }
+        public string? Name { get; set; }
+        public int? UserId { get; set; }
+        public int? CategoryId { get; set; }
         public State state { get; set; }
         public DateTime DateDelivery { get; set; }
     }

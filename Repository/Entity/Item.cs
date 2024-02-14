@@ -17,16 +17,16 @@ namespace Repository.Entity
         };
     public class Item
     {
-        [ForeignKey("ItemId")]
         public int Id { get; set; }
-        [Required]
-        public string Description { get; set; } = string.Empty;
-        //public DateTime DateDelivery { get; set; }
-
-        public User user { get; set; }
-        public Category category { get; set; }
+        public string? Name { get; set; }
+        public string? Image { get; set; }
+        public int? UserId { get; set; }
+        [ForeignKey("UserId")]
+        public virtual User user { get; set; }
+        public int? CategoryId { get; set; }
+        [ForeignKey("CategoryId")]
+        public virtual Category category { get; set; }
         public State state { get; set; }
         public DateTime DateDelivery { get; set; }
-
     }
 }

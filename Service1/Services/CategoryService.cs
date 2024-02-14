@@ -15,7 +15,7 @@ namespace Service1.Services
     {
         private readonly IRepository<Category> _repository;
         private readonly IMapper mapper;
-        public CategoryService(IRepository<Category> repository,IMapper mapper)
+        public CategoryService(IRepository<Category> repository, IMapper mapper)
         {
             this._repository = repository;
             this.mapper = mapper;
@@ -26,29 +26,29 @@ namespace Service1.Services
             await _repository.AddAsync(mapper.Map<Category>(service));
         }
 
-        public Task DeleteAsync(int id)
+        public async Task DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            await _repository.DeleteAsync(id);
+
         }
 
         public async Task<List<CategoryDto>> GetAllAsync()
         {
             return mapper.Map<List<CategoryDto>>(await _repository.GetAllAsync());
+
         }
 
         public async Task<CategoryDto> GetAsync(int id)
         {
             return mapper.Map<CategoryDto>(await _repository.GetAsync(id));
-        }
 
-        public async Task RemoveAsync(int id)
-        {
-            await _repository.DeleteAsync(id);
         }
 
         public async Task UpdateAsync(int id, CategoryDto service)
         {
-            await _repository.UpdateAsync(id,mapper.Map<Category>(service));
+            await _repository.UpdateAsync(id, mapper.Map<Category>(service));
+
         }
+
     }
 }

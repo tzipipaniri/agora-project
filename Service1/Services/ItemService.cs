@@ -23,12 +23,13 @@ namespace Service1.Services
 
         public async Task AddAsync(ItemDto service)
         {
-            await _repository.AddAsync(_mapper.Map<Item>(service));
+                await _repository.AddAsync(_mapper.Map<Item>(service));
+
         }
 
-        public Task DeleteAsync(int id)
+        public async Task DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+             await _repository.DeleteAsync(id);
         }
 
         public async Task<List<ItemDto>> GetAllAsync()
@@ -38,17 +39,12 @@ namespace Service1.Services
 
         public async Task<ItemDto> GetAsync(int id)
         {
-            return _mapper.Map<ItemDto>(await _repository.GetAsync(id));
-        }
-
-        public async Task RemoveAsync(int id)
-        {
-            await _repository.DeleteAsync(id);
+                return _mapper.Map<ItemDto>(await _repository.GetAsync(id));
         }
 
         public async Task UpdateAsync(int id, ItemDto service)
         {
-            await _repository.UpdateAsync(id,_mapper.Map<Item>(service));
+              await _repository.UpdateAsync(id,_mapper.Map<Item>(service));
         }
     }
 }

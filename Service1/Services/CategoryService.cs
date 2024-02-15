@@ -46,7 +46,6 @@ namespace Service1.Services
         public async Task UpdateAsync(int id, CategoryDto service)
         {
             await _repository.UpdateAsync(id, mapper.Map<Category>(service));
-
         }
 
     }

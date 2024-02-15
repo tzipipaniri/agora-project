@@ -15,7 +15,7 @@ namespace DataContext2
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Trusted_Connection=True;Database=agoraDataBase;TrustServerCertificate=true;");
+            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Trusted_Connection=True;Database=agoraDataBase;TrustServerCertificate=true;");
         }
     }
 }

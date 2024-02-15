@@ -628,7 +628,8 @@
       },
       "Common1/1.0.0": {
         "dependencies": {
-          "Repository": "1.0.0"
+          "Repository": "1.0.0",
+          "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
           "Common1.dll": {}

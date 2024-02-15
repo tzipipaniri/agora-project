@@ -44,3 +44,18 @@ C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Common1\obj\Debu
 C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Common1\obj\Debug\net6.0\refint\Common1.dll
 C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Common1\obj\Debug\net6.0\Common1.pdb
 C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Common1\obj\Debug\net6.0\ref\Common1.dll
+C:\Users\113\Documents\GitHub\agora-project\Common1\bin\Debug\net6.0\Common1.deps.json
+C:\Users\113\Documents\GitHub\agora-project\Common1\bin\Debug\net6.0\Common1.dll
+C:\Users\113\Documents\GitHub\agora-project\Common1\bin\Debug\net6.0\Common1.pdb
+C:\Users\113\Documents\GitHub\agora-project\Common1\bin\Debug\net6.0\Repository.dll
+C:\Users\113\Documents\GitHub\agora-project\Common1\bin\Debug\net6.0\Repository.pdb
+C:\Users\113\Documents\GitHub\agora-project\Common1\obj\Debug\net6.0\Common1.csproj.AssemblyReference.cache
+C:\Users\113\Documents\GitHub\agora-project\Common1\obj\Debug\net6.0\Common1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\113\Documents\GitHub\agora-project\Common1\obj\Debug\net6.0\Common1.AssemblyInfoInputs.cache
+C:\Users\113\Documents\GitHub\agora-project\Common1\obj\Debug\net6.0\Common1.AssemblyInfo.cs
+C:\Users\113\Documents\GitHub\agora-project\Common1\obj\Debug\net6.0\Common1.csproj.CoreCompileInputs.cache
+C:\Users\113\Documents\GitHub\agora-project\Common1\obj\Debug\net6.0\Common1.csproj.CopyComplete
+C:\Users\113\Documents\GitHub\agora-project\Common1\obj\Debug\net6.0\Common1.dll
+C:\Users\113\Documents\GitHub\agora-project\Common1\obj\Debug\net6.0\refint\Common1.dll
+C:\Users\113\Documents\GitHub\agora-project\Common1\obj\Debug\net6.0\Common1.pdb
+C:\Users\113\Documents\GitHub\agora-project\Common1\obj\Debug\net6.0\ref\Common1.dll

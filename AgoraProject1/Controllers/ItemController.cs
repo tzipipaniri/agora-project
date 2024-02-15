@@ -1,6 +1,7 @@
 ﻿using Common1.Dtos;
 using Microsoft.AspNetCore.Mvc;
 using Service1.Interfaces;
+using Microsoft.AspNetCore.Http;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -29,12 +30,31 @@ namespace AgoraProject1.Controllers
             return await this.service.GetAsync(id);
         }
 
+        [HttpGet("getImage/{ImageUrl}")]
+        public string GetImage(string ImageUrl)
+        {
+            var path = Path.Combine(Environment.CurrentDirectory, "images/", ImageUrl);
+            byte[] bytes = System.IO.File.ReadAllBytes(path);
+            string imageBase64 = Convert.ToBase64String(bytes);
+            string image = string.Format("data:image/jpeg;base64,{0}", imageBase64);
+            return image;
+        }
+
         // POST api/<ItemController>
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] ItemDto value)
+        public async Task Post([FromForm] ItemDto value)
         {
-          //  await this.service.AddAsync(value);
-          return Ok(await service.AddAsync(value));
+            //  await this.service.AddAsync(value);
+            // return Ok(await service.AddAsync(value));
+            var myPath = Path.Combine(Environment.CurrentDirectory + "/images/" + value.FileImage.FileName);
+            using (FileStream fs = new FileStream(myPath, FileMode.Create))
+            {
+                value.FileImage.CopyTo(fs);
+                fs.Close();
+            }
+
+            value.Image = value.FileImage.FileName;
+            await service.AddAsync(value);
         }
 
         // PUT api/<ItemController>/5

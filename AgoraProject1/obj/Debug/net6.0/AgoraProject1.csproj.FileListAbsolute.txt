@@ -265,3 +265,4 @@ C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\AgoraProject1\ob
 C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\AgoraProject1\obj\Debug\net6.0\AgoraProject1.pdb
 C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\AgoraProject1\obj\Debug\net6.0\AgoraProject1.genruntimeconfig.cache
 C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\AgoraProject1\obj\Debug\net6.0\ref\AgoraProject1.dll
+C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\AgoraProject1\obj\Debug\net6.0\AgoraProject1.MvcApplicationPartsAssemblyInfo.cs

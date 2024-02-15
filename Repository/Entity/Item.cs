@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Repository.Entity
 {
@@ -17,9 +18,12 @@ namespace Repository.Entity
         };
     public class Item
     {
+        private string image;
         public int Id { get; set; }
         public string? Name { get; set; }
-        public string? Image { get; set; }
+        // public string? Image { get; set; }
+        public string Image { get => image; set => image = value; }
+
         public int? UserId { get; set; }
         [ForeignKey("UserId")]
         public virtual User user { get; set; }

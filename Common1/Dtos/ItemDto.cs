@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Repository.Entity;
+using Microsoft.AspNetCore.Http;
 
 namespace Common1.Dtos
 {
@@ -18,6 +19,9 @@ namespace Common1.Dtos
         public int? CategoryId { get; set; }
         public State state { get; set; }
         public DateTime DateDelivery { get; set; }
-        public List<IFromFile> MyProperty { get; set; }
+        // public List<IFormFile> MyProperty { get; set; }
+        public IFormFile FileImage { get; set; }
+        public string? Image { get; set; }
+
     }
 }

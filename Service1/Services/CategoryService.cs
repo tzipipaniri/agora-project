@@ -35,7 +35,6 @@ namespace Service1.Services
         public async Task<List<CategoryDto>> GetAllAsync()
         {
             return mapper.Map<List<CategoryDto>>(await _repository.GetAllAsync());
-
         }
 
         public async Task<CategoryDto> GetAsync(int id)

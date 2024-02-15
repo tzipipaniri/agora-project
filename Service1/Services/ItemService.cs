@@ -21,10 +21,10 @@ namespace Service1.Services
             this._mapper = mapper;
         }
 
-        public async Task AddAsync(ItemDto service)
+        public async Task<ItemDto> AddAsync(ItemDto service)
         {
-                await _repository.AddAsync(_mapper.Map<Item>(service));
-
+            //    await _repository.AddAsync(_mapper.Map<Item>(service));
+            return _mapper.Map<ItemDto>(await _repository.AddAsync(_mapper.Map<Item>(service)));
         }
 
         public async Task DeleteAsync(int id)

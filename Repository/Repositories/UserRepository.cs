@@ -18,10 +18,14 @@ namespace Repository.Repositories
             this._context = context;
         }
 
-        public async Task AddAsync(User item)
+        public async Task<User> AddAsync(User item)
         {
-            await _context.Users.AddAsync(item);
-            await _context.save();
+            //await _context.Users.AddAsync(item);
+            //await _context.save();
+            User u = item;
+            await this._context.Users.AddAsync(u);
+            await this._context.save();
+            return u;
         }
 
         public async Task DeleteAsync(int id)

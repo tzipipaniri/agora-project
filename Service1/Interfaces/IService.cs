@@ -8,7 +8,7 @@ namespace Service1.Interfaces
 {
     public interface IService<T> where T : class
     {
-        public Task AddAsync(T service);
+        public Task<T> AddAsync(T service);
         public Task DeleteAsync(int id);
         public Task<T> GetAsync(int id);
         public Task<List<T>> GetAllAsync();

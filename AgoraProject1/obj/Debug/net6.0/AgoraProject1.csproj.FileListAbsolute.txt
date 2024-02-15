@@ -249,7 +249,6 @@ C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\AgoraProject1\ob
 C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\AgoraProject1\obj\Debug\net6.0\AgoraProject1.AssemblyInfoInputs.cache
 C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\AgoraProject1\obj\Debug\net6.0\AgoraProject1.AssemblyInfo.cs
 C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\AgoraProject1\obj\Debug\net6.0\AgoraProject1.csproj.CoreCompileInputs.cache
-C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\AgoraProject1\obj\Debug\net6.0\AgoraProject1.MvcApplicationPartsAssemblyInfo.cs
 C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\AgoraProject1\obj\Debug\net6.0\AgoraProject1.MvcApplicationPartsAssemblyInfo.cache
 C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\AgoraProject1\obj\Debug\net6.0\AgoraProject1.sourcelink.json
 C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\AgoraProject1\obj\Debug\net6.0\staticwebassets.build.json

@@ -21,9 +21,10 @@ namespace Service1.Services
             this.mapper = mapper;
         }
 
-        public async Task AddAsync(CategoryDto service)
+        public async Task<CategoryDto> AddAsync(CategoryDto service)
         {
-            await _repository.AddAsync(mapper.Map<Category>(service));
+            //  await _repository.AddAsync(mapper.Map<Category>(service));
+            return mapper.Map<CategoryDto>(await _repository.AddAsync(mapper.Map<Category>(service)));
         }
 
         public async Task DeleteAsync(int id)

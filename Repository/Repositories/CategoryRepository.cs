@@ -17,10 +17,14 @@ namespace Repository.Repositories
             this._context = context;
         }
 
-        public async Task AddAsync(Category item)
+        public async Task<Category> AddAsync(Category item)
         {
-            await this._context.Categories.AddAsync(item);
-            await _context.save();
+            //await this._context.Categories.AddAsync(item);
+            //await _context.save();
+            Category c = item;
+            this._context.Categories.Add(c);
+            await this._context.save();
+            return c;
         }
 
         public async Task DeleteAsync(int id)

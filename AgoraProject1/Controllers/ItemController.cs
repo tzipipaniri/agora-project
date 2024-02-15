@@ -31,9 +31,10 @@ namespace AgoraProject1.Controllers
 
         // POST api/<ItemController>
         [HttpPost]
-        public async Task Post([FromBody] ItemDto value)
+        public async Task<ActionResult> Post([FromBody] ItemDto value)
         {
-            await this.service.AddAsync(value);
+          //  await this.service.AddAsync(value);
+          return Ok(await service.AddAsync(value));
         }
 
         // PUT api/<ItemController>/5

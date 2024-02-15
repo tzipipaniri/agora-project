@@ -18,5 +18,6 @@ namespace Common1.Dtos
         public int? CategoryId { get; set; }
         public State state { get; set; }
         public DateTime DateDelivery { get; set; }
+        public List<IFromFile> MyProperty { get; set; }
     }
 }

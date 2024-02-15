@@ -8,7 +8,7 @@ namespace Repository.Interface
 {
     public interface IRepository<T> where T : class
     {
-        public Task AddAsync(T item);
+        public Task<T> AddAsync(T item);
         public Task UpdateAsync(int id, T item);
         public Task DeleteAsync(int id);
         public Task<T> GetAsync(int id);

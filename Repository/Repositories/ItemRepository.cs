@@ -3,6 +3,7 @@ using Repository.Entity;
 using Repository.Interface;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -45,8 +46,25 @@ namespace Repository.Repositories
 
         public async Task UpdateAsync(int id, Item item)
         {
+        //    private string image;
+        //public int Id { get; set; }
+        //public string? Name { get; set; }
+        //// public string? Image { get; set; }
+        //public string Image { get => image; set => image = value; }
+
+        //public int? UserId { get; set; }
+        //[ForeignKey("UserId")]
+        //public virtual User user { get; set; }
+        //public int? CategoryId { get; set; }
+        //[ForeignKey("CategoryId")]
+        //public virtual Category category { get; set; }
+        //public State state { get; set; }
+        //public DateTime DateDelivery { get; set; }
+
+
 
         var item1= await context.Items.FirstOrDefaultAsync(x=>x.Id == id);
+
             item1.Name=item.Name;
             if(item1.Image!=null)
             item1.Image=item.Image;

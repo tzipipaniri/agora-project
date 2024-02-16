@@ -63,3 +63,15 @@ C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Repository\obj\D
 C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Repository\obj\Debug\net6.0\refint\Repository.dll
 C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Repository\obj\Debug\net6.0\Repository.pdb
 C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\Repository\obj\Debug\net6.0\ref\Repository.dll
+C:\Users\113\Documents\GitHub\agora-project\Repository\bin\Debug\net6.0\Repository.deps.json
+C:\Users\113\Documents\GitHub\agora-project\Repository\bin\Debug\net6.0\Repository.dll
+C:\Users\113\Documents\GitHub\agora-project\Repository\bin\Debug\net6.0\Repository.pdb
+C:\Users\113\Documents\GitHub\agora-project\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+C:\Users\113\Documents\GitHub\agora-project\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\113\Documents\GitHub\agora-project\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+C:\Users\113\Documents\GitHub\agora-project\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+C:\Users\113\Documents\GitHub\agora-project\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\113\Documents\GitHub\agora-project\Repository\obj\Debug\net6.0\Repository.dll
+C:\Users\113\Documents\GitHub\agora-project\Repository\obj\Debug\net6.0\refint\Repository.dll
+C:\Users\113\Documents\GitHub\agora-project\Repository\obj\Debug\net6.0\Repository.pdb
+C:\Users\113\Documents\GitHub\agora-project\Repository\obj\Debug\net6.0\ref\Repository.dll

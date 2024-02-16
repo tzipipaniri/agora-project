@@ -663,8 +663,13 @@
       },
       "Common1/1.0.0": {
         "dependencies": {
+<<<<<<< HEAD
           "Microsoft.AspNetCore.Http": "2.1.34",
           "Repository": "1.0.0"
+=======
+          "Repository": "1.0.0",
+          "Swashbuckle.AspNetCore": "6.5.0"
+>>>>>>> 351b21df4a9d31bd841fd1d5e9ce2f1930c3ea30
         },
         "runtime": {
           "Common1.dll": {}

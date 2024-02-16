@@ -1193,8 +1193,13 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+<<<<<<< HEAD
           "Microsoft.AspNetCore.Http": "2.1.34",
           "Repository": "1.0.0"
+=======
+          "Repository": "1.0.0",
+          "Swashbuckle.AspNetCore": "6.5.0"
+>>>>>>> 351b21df4a9d31bd841fd1d5e9ce2f1930c3ea30
         },
         "compile": {
           "bin/placeholder/Common1.dll": {}
@@ -3401,23 +3406,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tzipi paniri\\.nuget\\packages\\": {},
+    "C:\\Users\\113\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\AgoraProject1\\AgoraProject1.csproj",
+      "projectUniqueName": "C:\\Users\\113\\Documents\\GitHub\\agora-project\\AgoraProject1\\AgoraProject1.csproj",
       "projectName": "AgoraProject1",
-      "projectPath": "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\AgoraProject1\\AgoraProject1.csproj",
-      "packagesPath": "C:\\Users\\tzipi paniri\\.nuget\\packages\\",
-      "outputPath": "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\AgoraProject1\\obj\\",
+      "projectPath": "C:\\Users\\113\\Documents\\GitHub\\agora-project\\AgoraProject1\\AgoraProject1.csproj",
+      "packagesPath": "C:\\Users\\113\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\113\\Documents\\GitHub\\agora-project\\AgoraProject1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tzipi paniri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\113\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3426,21 +3431,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\Common1\\Common1.csproj": {
-              "projectPath": "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\Common1\\Common1.csproj"
+            "C:\\Users\\113\\Documents\\GitHub\\agora-project\\Common1\\Common1.csproj": {
+              "projectPath": "C:\\Users\\113\\Documents\\GitHub\\agora-project\\Common1\\Common1.csproj"
             },
-            "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\DataContext2\\DataContext2.csproj": {
-              "projectPath": "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\DataContext2\\DataContext2.csproj"
+            "C:\\Users\\113\\Documents\\GitHub\\agora-project\\DataContext2\\DataContext2.csproj": {
+              "projectPath": "C:\\Users\\113\\Documents\\GitHub\\agora-project\\DataContext2\\DataContext2.csproj"
             },
-            "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\Service1\\Service1.csproj": {
-              "projectPath": "C:\\הכל\\תכנות\\שנה ב\\C#++\\agora project\\agora-project\\Service1\\Service1.csproj"
+            "C:\\Users\\113\\Documents\\GitHub\\agora-project\\Service1\\Service1.csproj": {
+              "projectPath": "C:\\Users\\113\\Documents\\GitHub\\agora-project\\Service1\\Service1.csproj"
             }
           }
         }
@@ -3483,7 +3488,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

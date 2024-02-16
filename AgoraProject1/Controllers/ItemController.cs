@@ -1,7 +1,8 @@
-﻿using Common1.Dtos;
+﻿//using Common1.Dtos;
 using Microsoft.AspNetCore.Mvc;
 using Service1.Interfaces;
 using Microsoft.AspNetCore.Http;
+using Common1.Dtos;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -70,5 +71,7 @@ namespace AgoraProject1.Controllers
         {
             await service.DeleteAsync(id);
         }
+
+
     }
 }

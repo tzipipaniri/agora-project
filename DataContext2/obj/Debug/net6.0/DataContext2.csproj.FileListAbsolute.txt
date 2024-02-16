@@ -50,3 +50,20 @@ C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\obj
 C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.pdb
 C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.genruntimeconfig.cache
 C:\הכל\תכנות\שנה ב\C#++\agora project\agora-project\DataContext2\obj\Debug\net6.0\ref\DataContext2.dll
+C:\Users\113\Documents\GitHub\agora-project\DataContext2\bin\Debug\net6.0\DataContext2.deps.json
+C:\Users\113\Documents\GitHub\agora-project\DataContext2\bin\Debug\net6.0\DataContext2.runtimeconfig.json
+C:\Users\113\Documents\GitHub\agora-project\DataContext2\bin\Debug\net6.0\DataContext2.dll
+C:\Users\113\Documents\GitHub\agora-project\DataContext2\bin\Debug\net6.0\DataContext2.pdb
+C:\Users\113\Documents\GitHub\agora-project\DataContext2\bin\Debug\net6.0\Repository.dll
+C:\Users\113\Documents\GitHub\agora-project\DataContext2\bin\Debug\net6.0\Repository.pdb
+C:\Users\113\Documents\GitHub\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.csproj.AssemblyReference.cache
+C:\Users\113\Documents\GitHub\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\113\Documents\GitHub\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.AssemblyInfoInputs.cache
+C:\Users\113\Documents\GitHub\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.AssemblyInfo.cs
+C:\Users\113\Documents\GitHub\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.csproj.CoreCompileInputs.cache
+C:\Users\113\Documents\GitHub\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.csproj.CopyComplete
+C:\Users\113\Documents\GitHub\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.dll
+C:\Users\113\Documents\GitHub\agora-project\DataContext2\obj\Debug\net6.0\refint\DataContext2.dll
+C:\Users\113\Documents\GitHub\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.pdb
+C:\Users\113\Documents\GitHub\agora-project\DataContext2\obj\Debug\net6.0\DataContext2.genruntimeconfig.cache
+C:\Users\113\Documents\GitHub\agora-project\DataContext2\obj\Debug\net6.0\ref\DataContext2.dll

@@ -19,9 +19,13 @@ namespace Common1.Dtos
         public int? CategoryId { get; set; }
         public State state { get; set; }
         public DateTime DateDelivery { get; set; }
+<<<<<<< HEAD
         // public List<IFormFile> MyProperty { get; set; }
         public IFormFile? FileImage { get; set; }
         public string? Image { get; set; }
 
+=======
+        public List<IFormFile> files { get; set; }
+>>>>>>> 351b21df4a9d31bd841fd1d5e9ce2f1930c3ea30
     }
 }

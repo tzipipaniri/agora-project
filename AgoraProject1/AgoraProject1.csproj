@@ -17,4 +17,8 @@
     <ProjectReference Include="..\Service1\Service1.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
+
 </Project>

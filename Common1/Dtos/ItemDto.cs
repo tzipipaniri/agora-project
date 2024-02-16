@@ -20,7 +20,7 @@ namespace Common1.Dtos
         public State state { get; set; }
         public DateTime DateDelivery { get; set; }
         // public List<IFormFile> MyProperty { get; set; }
-        public IFormFile FileImage { get; set; }
+        public IFormFile? FileImage { get; set; }
         public string? Image { get; set; }
 
     }
